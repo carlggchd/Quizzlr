@@ -5,7 +5,7 @@ body, html{
 }
 
 /* url("./photos/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg") */
-.bgimage{
+.bg-container{
    
     background-image: url("./photos/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg");
     background-size: cover;
@@ -17,29 +17,6 @@ body, html{
     justify-content: center;
 }
 
-.text-container h1{
-    padding-bottom: 90px;
-}
 
-.text-container p{
-    color:aqua;
-    font-size: 50px;
-    padding-left: 72px;
-}
-
-.text-container {
-    color: rgb(52, 221, 109);
-    background-color: transparent;
-    width: 50%; /* or any desired width */
-    text-align: left;
-    padding-right: 499px;
-    margin-bottom: 450px;
-  }
-
-  @media (max-width: 767px) {
-    .text-container {
-      width: 80%;
-    }
-  }
 
  
