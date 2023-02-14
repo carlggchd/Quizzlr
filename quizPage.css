@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .header p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .card h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .card p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .card button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+      width: 80%;
+    }
+  }
