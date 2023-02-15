@@ -7,6 +7,16 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    outline: 0;
+}
+
+.startQuiz:hover{
+    outline: 8px solid rgb(172, 18, 77); /* add blue outline on hover */
+
+}
+
 .bg-container{
     background-image: url("./photos/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg");
     background-size: cover;

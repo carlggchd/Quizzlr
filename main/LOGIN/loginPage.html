@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="loginPage.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="photo-column">
+            <img src="/photos/login-page-smol.jpg" alt="classroom">
+        </div>
+        <div class="form-column">
+            <div class="loginForm">
+                <h1>Student Login</h1>
+                <form>
+                <label for="studentNumber">Student Number:</label>
+                <input type="text" id="studentNumber" name="studentNumber">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <input type="button" value="Login" onclick="validateLogin()">
+                <p id="error"></p>
+                </form>
+            </div>
+         </div>
+    </div>
+         
+        
+    <script>
+      function validateLogin() {
+        const studentNumber = document.getElementById("studentNumber").value;
+        const password = document.getElementById("password").value;
+        if (studentNumber === "" || password === "") {
+          document.getElementById("error").innerHTML = "Please enter both student number and password";
+        } else if (studentNumber === "911619" && password === "123456") {
+          window.location.href = "/main/QUIZ/quizPage.html";
+        } else {
+          document.getElementById("error").innerHTML = "Invalid student number or password";
+        }
+      }
+    </script>
+</body>
+</html>
