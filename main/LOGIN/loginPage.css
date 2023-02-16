@@ -53,27 +53,25 @@ body {
     text-align: center; 
   }
 
-  .container {
+  .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
   }
   
   .photo-column {
-    flex: 1;
+    flex: 1 ;
+   
   }
   
   .form-column {
     flex: 1;
-    margin-left: 1%;
   }
   
   img {
-    float: left;
-    width: 30%;
-    height: 22%;
-
+    max-width: 65%;
+    height: auto;
   }
 
   .loginForm{
@@ -81,11 +79,20 @@ body {
     background-color: #44e68d;
     border: 3px solid #ccc;
     border-radius: 10px;
-    margin: 0 auto;
-    max-width: 400px;
+    max-width: 50%;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
-    margin-top: 5%;
-    left: 5%;
+    margin-top: -15%;
+    left: -45%;
+}
+
+.activateAccount{
+  margin-top: 2%;
+  float:left;
+  margin-right: 69px;
+}
+
+.login-Button{
+  display:inline-block;
 }
