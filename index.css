@@ -13,7 +13,7 @@ a{
 }
 
 .startQuiz:hover{
-    outline: 8px solid rgb(172, 18, 77); /* add blue outline on hover */
+    outline: 8px solid rgba(156, 6, 6, 0.856); 
 
 }
 

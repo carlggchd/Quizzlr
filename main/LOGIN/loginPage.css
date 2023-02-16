@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color: #0e0c0c;
-    font-family: Arial, sans-serif;
+    background-color: #c56060;
+    font-family: 'Roboto', sans-serif;
   }
   h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
   }
   form {
     background-color: #fff;
@@ -37,7 +37,7 @@ body {
     margin-bottom: 20px;
   }
   input[type="button"] {
-    background-color: #4CAF50;
+    background-color: rgba(156, 6, 6, 0.856);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -45,7 +45,7 @@ body {
     cursor: pointer;
   }
   input[type="button"]:hover {
-    background-color: #3e8e41;
+    background-color: #023e8a;
   }
   #error {
     color: red;
@@ -76,7 +76,7 @@ body {
 
   .loginForm{
     position: relative;
-    background-color: #44e68d;
+    background-color: rgba(156, 6, 6, 0.856);
     border: 3px solid #ccc;
     border-radius: 10px;
     max-width: 50%;
@@ -91,6 +91,19 @@ body {
   margin-top: 2%;
   float:left;
   margin-right: 69px;
+  
+}
+
+.login-Button a:visited{
+  color: maroon;  
+}
+.login-Button a:hover{
+  color: blue;  
+}
+
+.login-Button a:active{
+  color: green;
+
 }
 
 .login-Button{
