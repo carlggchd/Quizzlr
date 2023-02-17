@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Merriweather:wght@300&family=Noto+Sans+Tagbanwa&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .header {
-    background-color: #f1f1f1;
+    background-color: rgba(156, 6, 6, 0.856);
     padding: 20px;
     text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
   }
 
   .header h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin: 0;
   }
 
   .header p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
   }
 
@@ -22,6 +28,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
   }
 
   .card {
@@ -43,7 +50,7 @@
   }
 
   .card button {
-    background-color: #4CAF50;
+    background-color: rgba(156, 6, 6, 0.856);
     color: #fff;
     border: none;
     padding: 10px 20px;
