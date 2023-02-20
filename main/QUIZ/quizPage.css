@@ -59,6 +59,10 @@
     margin: 20px 0;
   }
 
+  .card button:hover {
+    background-color: #023e8a;
+  }
+
   @media only screen and (max-width: 600px) {
     .card {
       width: 80%;

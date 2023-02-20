@@ -36,7 +36,7 @@
     width: 100%;
   }
   
-  button[type="submit"] {
+  button {
     background-color: rgb(165, 10, 10);
     color: #fff;
     border: none;
@@ -45,7 +45,7 @@
     cursor: pointer;
   }
   
-  button[type="submit"]:hover {
+  button:hover {
     background-color: #023e8a;
   }
   
